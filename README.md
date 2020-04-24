@@ -12,7 +12,7 @@ The prober can probe both IPs and Domains, when starting up probing, it will ask
 
 The "Exploit Suite" is basically a hacked together multi tool that I made after I realized that making 5 billion standalone tools serves nobody and clutters your folders really fast.
 
-Able to probe, attack remote target, attack router, attack locally, crack wifi and check libraries for exploits and check library versions. Also includes a script which you can use to automatically extract banking infos, needs to be ran locally as root. 
+Able to probe, attack remote target, attack router, attack locally, crack wifi and check libraries for exploits and check library versions. Also includes a script which you can use to automatically extract banking infos, needs to be ran locally as root. The bank info script within the suite as well as the standalone tool still have a debugging thing I used which tries to delete folders in guest dir. Don't mind this, I'm just too lazy to remove it.
 
 ![Alt text](https://i.imgur.com/4kAg5vi.png "Exploit Suite")
 
