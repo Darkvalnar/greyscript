@@ -12,7 +12,7 @@ The prober can probe both IPs and Domains, when starting up probing, it will ask
 
 The "Exploit Suite" is basically a hacked together multi tool that I made after I realized that making 5 billion standalone tools serves nobody and clutters your folders really fast.
 
-It currently incorporates the probing tool, a library version checker, a library vulnerability scanner, remote attack sequences (both with probing, scanning, etc. and without), local attack sequences (both with and without scanning) and the WiFi cracker.
+Able to probe, attack remote target, attack router, attack locally, crack wifi and check libraries for exploits and check library versions. Also includes a script which you can use to automatically extract banking infos, needs to be ran locally as root. 
 
 ![Alt text](https://i.imgur.com/4kAg5vi.png "Exploit Suite")
 
