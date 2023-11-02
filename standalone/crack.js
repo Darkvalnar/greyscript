@@ -4,7 +4,7 @@ if not cryptools then exit("Error: Missing crypto library")
 
 GetPassword = function(userPass) //function to decipher password
 	if userPass.len != 2 then return ("decipher: wrong syntax") 
-	password = cryptools.decipher(userPass[0], userPass[1]) //the actual command in order to decipher the password
+	password = cryptools.decipher(userPass[1]) //the actual command in order to decipher the password
 	return password
 end function
 
@@ -14,8 +14,8 @@ origFile = params[0]
 file = get_shell.host_computer.File(origFile)
 if file then
 	if not file.has_permission("r") then exit("can't read file. Permission denied")
-	if file.content.len == 0 then exit("decipher: no users found")
-	lines = file.content.split("\n")
+	if file.get_content.len == 0 then exit("decipher: no users found")
+	lines = file.get_content.split("\n")
 else if origFile.len > 33 then
 	lines = [origFile]
 	
@@ -29,4 +29,3 @@ for line in lines
 		if not password then print("Can't find password :(")
 		if password then print(password)
 	end for
-

@@ -1,4 +1,5 @@
 # Greyscript (Grey Hack) stuff
+[update info](#updating-to-game-version-08) at the bottom!
 
 Hello there!
 
@@ -20,4 +21,11 @@ Currently the attacks will handle results that are both computer and shell. Sinc
 
 The code is probably very messy and I will make the menu flow itself more...fluid(?) and less cluttered in the future. Same goes for the code.
 
+# Updating to Game version 0.8
+Hey! I'm currently working to get suit running since the Grey-Script API changed.
 
+## Installation
+- Copy and paste both files found in the [Update folder](https://github.com/StopfMich/greyscript/edit/update_unstable/update/) into your CodeEditor.exe
+- You can name the "Exploit Suite 0.9.1.scr" however you want and compile it to /bin/
+- the "crack.src" has to be compiled into "crack" in /bin/
+- - crack.src is not optional for the Suite to work!
